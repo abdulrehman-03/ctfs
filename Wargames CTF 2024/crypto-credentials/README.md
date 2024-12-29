@@ -11,6 +11,6 @@ We have two files, `user.txt` and `passwd.txt`. We have to find the passwd for u
 ![Credentials](./credentials.png)
 
 
-The 337 entry contains which is shift cipher. Shifting values by 25, we get the flag:
+The 337 entry contains our value which is shift cipher. Shifting values by 25, we get the flag:
 
 ![flag](./flag.png)
