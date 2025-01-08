@@ -5,12 +5,12 @@
 
 ### Solution
 
-We got pcap file that contains `USB Leftover Data`. It seems like key strokes. We only need data from packets with 71 lengths, as these are packets that contains key presses.
+We got pcap file that contains `USB Leftover Data`. It seems like key strokes. We only need data from packets with 72 lengths, as these are packets that contains key presses.
 
 
 Using tshark:
 
-`tshark -r klogger.pcapng -Y "(frame.len == 71)" -e "usb.capdata" -T fields > data.txt `
+`tshark -r klogger.pcapng -Y "(frame.len == 72)" -e "usb.capdata" -T fields > data.txt `
 
 
 ![Data](./data.png)
