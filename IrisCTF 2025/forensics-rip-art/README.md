@@ -28,7 +28,7 @@ Using `sed 's/../&:/g; s/:$//' mosue_data.txt > formatted.txt` we can properly f
 ![Mouse](./formatted.png)
 
 
-Convert the 3-5 bytes into coordinates using `awk`:
+Convert the 3-7 bytes into coordinates using `awk`:
 
 `awk -F: '{x=$3$4;y=$5$6}{z=$7}$1=="02"{print x,y,z}' formatted.txt > hex.txt`
 
@@ -57,6 +57,6 @@ We got other half of the flag:
 
 ![Second half](./half-flag2.png)
 
-Use any online tool to mirror the image. The final flag:
+Use any online tool to mirror the image.
 
-`irisctf{usb_comm_protos_got_nothing_on_u}`
+The final flag: `irisctf{usb_comm_protos_got_nothing_on_u}`
