@@ -9,7 +9,7 @@
 This is the provided image:
 
 
-![Challenge File](./chal.png)
+![Challenge File](./chal.jpg)
 
 It's a simple steghide challenge where extracting image with steghide reveals a `flag.txt` file. The passphrase to extract the flag is written on the image as text.
 
