@@ -29,6 +29,6 @@ with open("base64data.txt", "w") as out:
 
 Then flag can be obtained by simply decoding this base64 data:
 
-base64 -d base64data.txt | grep QnQSec
+`base64 -d base64data.txt | grep QnQSec`
 
 `QnQSec{C4TCH_M3_1F_Y0U_C4N}`
