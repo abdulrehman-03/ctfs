@@ -11,6 +11,8 @@ We are provided with two audio files: `rain.wav` and `fire.wav`. These files com
 
 `ffmpeg -i rain.wav -i fire.wav -filter_complex amix=inputs=2:duration=longest output.wav`
 
+(This can also be done by opening both files simultaneously in audacity, and then exporting them as a single file)
+
 
 Now open the combined audio in a spectrogram viewer (audacity or sonic visualizer). You will see a spectrogram which is a simple morse code.
 
